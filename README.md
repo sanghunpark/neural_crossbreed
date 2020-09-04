@@ -1,5 +1,7 @@
-# Neural Crossbreed
-Neural Crossbreed: Neural Based Image Metamorphosis
+# Neural Crossbreed: Neural Based Image Metamorphosis
+<p align="left">
+<img src="docs/teaser.png">
+</p>
 
 [[Paper]](https://arxiv.org/abs/2009.00905)
 
