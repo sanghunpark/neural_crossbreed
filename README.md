@@ -11,7 +11,7 @@ The code will be updated soon.
 ## Citation
  If you find this work useful in your research, please cite our paper:
  ```
-@article {shi_siga20,
+@article {park2020neural,
     title = {Neural Crossbreed: Neural Based Image Metamorphosis},
     author = {Sanghun Park and Kwanggyoon Seo and Junyong Noh},
     journal = {ACM Transactions on Graphics (SIGGRAPH Asia 2020)},
