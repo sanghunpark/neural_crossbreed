@@ -26,14 +26,15 @@ NLTK 3.4.5
 
 scikit-image 0.16.2
 
-# Installlation 
+# Installation 
 
 Clone this repository.
 ```bash
 git clone https://github.com/sanghunpark/neural_crossbreed.git
 cd neural_crossbreed/
 ```
->## For [Conda](https://www.anaconda.com/) users:
+## Installation guide 1
+>### For [Conda](https://www.anaconda.com/) users:
 >```bash
 >conda create -n neural_crossbreed python=3.7.4
 >conda activate neural_crossbreed
@@ -47,10 +48,23 @@ Install other dependencies from the requirement file.
 pip install -r requirements.txt 
 ```
 
+## Installation guide 2
+### For [Docker](https://www.docker.com/) users:
+A [nvidia-docker](https://github.com/NVIDIA/nvidia-docker) is required.
+
+Build the Docker image from [Dockerfile](https://github.com/sanghunpark/neural_crossbreed/blob/master/Dockerfile)
+
+
+
+```bash
+docker build -t neural_crossbreed .
+docker run --gpus all --rm -v $(pwd):/workspace -it neural_crossbreed:latest
+```
+
 
 # Testing
 
-Download the checkpoint file of the pre-trained dog model from the [link](https://drive.google.com/drive/folders/1IhxQ-fus-maSEakuFy7PorP1dkWI1WyR?usp=sharing), save it in `./train_dir/nc_final/`.
+Download the pre-trained dog model from the [link](https://drive.google.com/drive/folders/1IhxQ-fus-maSEakuFy7PorP1dkWI1WyR?usp=sharing), save it in `./train_dir/nc_final/`.
 
 To generate morphed images using the pre-trained dog model, run following command:
 ```bash
@@ -99,6 +113,9 @@ checkpoints: [MODEL_DIR]/[YOUR_CHECKPOINT].pt
 ...
 ```
 If a checkpoint file exists in the path, training will resume at the point where a previous training run left off. Otherwise, the network will be trained from scratch.
+
+When your model training is complete, replace the checkpoint path in the [`./config.yaml`](https://github.com/sanghunpark/neural_crossbreed/blob/master/config.yaml) file  with the latest checkpoint and run the [test.py](https://github.com/sanghunpark/neural_crossbreed/blob/master/test.py). ([Testing](#Testing))
+
 
 ## Citation
  If you find this work useful, please cite our paper:
