@@ -1,0 +1,48 @@
+
+# log frequency
+log_freq: 50
+checkpoint_freq: 100
+
+# path
+root_dir: ./train_dir/
+checkpoints: nc_final/best_00174000.pt #
+out_path: ./test_outdir/out.png
+
+# data
+img_size: 128
+biggan_model: 128
+batch_size: 2
+num_workers: 8
+truncation: 0.25
+n_inter: 100
+max_epochs: 2000
+
+# metric
+which_best: 'FID'
+
+# model 
+gen:
+  n_f: 32
+  n_cont_down: 3
+  n_cont_res_blks: 3
+
+  n_style_down: 6 # 2^(n) : image size
+  n_style_res_blks: 0
+  n_mlp_f: 512
+  n_mlp_blks: 3
+
+dis:
+  n_res: 4
+  n_f: 32
+
+# loss weight
+adv_w: 1
+rec_w: 0.1
+gp_w: 1
+
+# training parameter
+G_lr: 0.0001 # Adam
+D_lr: 0.0004 # TTUR
+beta1: 0.5
+beta2: 0.999
+eps: 0.00000001 #1e-08
