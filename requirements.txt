@@ -1,0 +1,19 @@
+## PyTorch
+#conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+
+## Tensorboard
+tb-nightly
+future
+
+## image & vidoe processing
+scikit-image==0.16.2
+
+## visualizing loader
+tqdm==4.41.1
+	
+## config file loader
+pyyaml==5.1.2
+
+## BigGAN
+pytorch-pretrained-biggan==0.1.1
+nltk==3.4.5
