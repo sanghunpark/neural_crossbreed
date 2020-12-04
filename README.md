@@ -1,6 +1,15 @@
 # Neural Crossbreed: Neural Based Image Metamorphosis
-[[Paper]](https://arxiv.org/abs/2009.00905)
+### Sanghun Park, Kwanggyoon Seo, Junyong Noh
 
+Journal: ACM Transaction on Graphics, Volume 39, Issue 6, Article No.224, November 2020
+
+Conference: ACM SIGGRAPH Asia 2020
+
+[[arXiv]](https://arxiv.org/abs/2009.00905) |
+[[Paper]](https://dl.acm.org/doi/10.1145/3414685.3417797) |
+[[Fast-Forward]](https://youtu.be/yQ2-Vyq5RaM) |
+[[Video]](https://youtu.be/xKXiPJ3hKSc) |
+[[BibTex]](#Citation)
 <p align="left">
 <img src="docs/teaser.png">
 </p>
@@ -9,6 +18,12 @@ __Abstract__ We propose Neural Crossbreed, a feed-forward neural network that ca
 
 
 <!-- The code will be updated soon. -->
+
+# Fast Forward Video
+[![FF](https://img.youtube.com/vi/yQ2-Vyq5RaM/0.jpg)](https://www.youtube.com/watch?v=yQ2-Vyq5RaM "Neural Crossbreed (SIGGRAPH Asia 2020 Fast Forward)")
+
+# Result Video
+[![Results](https://img.youtube.com/vi/xKXiPJ3hKSc/0.jpg)](https://www.youtube.com/watch?v=xKXiPJ3hKSc " 0:01 / 2:11 Neural Crossbreed: Neural Based Image Metamorphosis")
 # Requirements
 Python 3.7.4
 
