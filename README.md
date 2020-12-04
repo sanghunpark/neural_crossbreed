@@ -120,13 +120,15 @@ When your model training is complete, replace the checkpoint path in the [`./con
 ## Citation
  If you find this work useful, please cite our paper:
  ```
-@article {park2020neural,
-    title = {Neural Crossbreed: Neural Based Image Metamorphosis},
-    author = {Sanghun Park and Kwanggyoon Seo and Junyong Noh},
-    journal = {ACM Transactions on Graphics (SIGGRAPH Asia 2020)},
-    volume = {39},
-    number = {6},
-    year = {2020}
+@article{park2020neural,
+  title={Neural crossbreed: neural based image metamorphosis},
+  author={Park, Sanghun and Seo, Kwanggyoon and Noh, Junyong},
+  journal={ACM Transactions on Graphics (TOG)},
+  volume={39},
+  number={6},
+  pages={1--15},
+  year={2020},
+  publisher={ACM New York, NY, USA}
 }
 ```
 
