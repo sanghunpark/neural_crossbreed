@@ -1,4 +1,4 @@
-# Neural Crossbreed: Neural Based Image Metamorphosis
+# **Neural Crossbreed**: Neural Based Image Metamorphosis
 ### Sanghun Park, Kwanggyoon Seo, Junyong Noh
 
 Journal: ACM Transaction on Graphics, Volume 39, Issue 6, Article No.224, November 2020
@@ -132,7 +132,7 @@ If a checkpoint file exists in the path, training will resume at the point where
 When your model training is complete, replace the checkpoint path in the [`./config.yaml`](https://github.com/sanghunpark/neural_crossbreed/blob/master/config.yaml) file  with the latest checkpoint and run the [test.py](https://github.com/sanghunpark/neural_crossbreed/blob/master/test.py). ([Testing](#Testing))
 
 
-## Citation
+# Citation
  If you find this work useful, please cite our paper:
  ```
 @article{park2020neural,
@@ -147,7 +147,7 @@ When your model training is complete, replace the checkpoint path in the [`./con
 }
 ```
 
-## Acknowledgements
+# Acknowledgements
 This repository contains pieces of code from the following repositories:
 
 [PyTorch pretrained BigGAN](https://github.com/huggingface/pytorch-pretrained-BigGAN) and [FUNIT](https://github.com/NVlabs/FUNIT). 
