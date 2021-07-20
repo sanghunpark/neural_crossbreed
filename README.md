@@ -81,7 +81,7 @@ docker run --gpus all --rm -v $(pwd):/workspace -it neural_crossbreed:latest
 
 Download the pre-trained dog model from the [link](https://drive.google.com/drive/folders/1IhxQ-fus-maSEakuFy7PorP1dkWI1WyR?usp=sharing), save it in `./train_dir/nc_final/`.
 
-To generate morphed images using the pre-trained dog model, run following command:
+To generate morphed images using the pre-trained dog model, run the following command:
 ```bash
 python test.py  --config=./config.yaml
                 --ngpu=1
