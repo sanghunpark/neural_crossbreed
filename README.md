@@ -22,8 +22,14 @@ __Abstract__ We propose Neural Crossbreed, a feed-forward neural network that ca
 # Fast Forward Video
 [![FF](https://img.youtube.com/vi/yQ2-Vyq5RaM/0.jpg)](https://www.youtube.com/watch?v=yQ2-Vyq5RaM "Neural Crossbreed (SIGGRAPH Asia 2020 Fast Forward)")
 
+Click on the picture above to view the video.
 # Result Video
 [![Results](https://img.youtube.com/vi/xKXiPJ3hKSc/0.jpg)](https://www.youtube.com/watch?v=xKXiPJ3hKSc " 0:01 / 2:11 Neural Crossbreed: Neural Based Image Metamorphosis")
+
+Click on the picture above to view the video.
+
+Our result video has been shosen for SIGGRAPH Asia 2020 Techncial Papers Trailer (https://www.youtube.com/watch?v=Q45KT0lGd7A).
+
 # Requirements
 Python 3.7.4
 
