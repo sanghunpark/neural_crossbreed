@@ -28,7 +28,7 @@ Click on the picture above to view the video.
 
 Click on the picture above to view the video.
 
-Our result video has been shosen for SIGGRAPH Asia 2020 Techncial Papers Trailer (https://www.youtube.com/watch?v=Q45KT0lGd7A).
+Our result video has been chosen for SIGGRAPH Asia 2020 Techncial Papers Trailer (https://www.youtube.com/watch?v=Q45KT0lGd7A).
 
 # Requirements
 Python 3.7.4
